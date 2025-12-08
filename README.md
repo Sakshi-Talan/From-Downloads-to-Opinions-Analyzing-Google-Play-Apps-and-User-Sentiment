@@ -8,24 +8,10 @@ By combining app metadata with user review sentiment, this project uncovers patt
 ## Dataset Information
 We use two datasets:
 1. apps.csv
-Contains metadata for apps published on Google Play, including:
-App – App name
-Category – App category (e.g., GAME, FAMILY, TOOLS)
-Rating – Average user rating (1.0 – 5.0)
-Reviews – Number of user reviews
-Size – App size
-Installs – Number of installs
-Type – Free or Paid
-Price – App price
-Content Rating – Age group (Everyone, Teen, etc.)
+Contains data for apps published on Google Play, including : App, Category, Rating (1.0 – 5.0), Reviews, Size, Installs, Type (Free or Paid), Price, Content Rating 
 
 2. user_reviews.csv
-Contains user review data, including:
-App – App name (to join with apps.csv)
-Translated_Review – Preprocessed user review text in English
-Sentiment – Label: Positive, Negative, or Neutral
-Sentiment_Polarity – Score from -1 (very negative) to +1 (very positive)
-Sentiment_Subjectivity – Score from 0 (objective) to 1 (subjective)
+Contains user review data, including : App, Translated_Review, Sentiment – Label (Positive, Negative, or Neutral), Sentiment_Polarity (-1 to +1), Sentiment_Subjectivity (0 to 1)
 
 These two datasets are merged on the App column to connect what an app is with what users say about it (reviews).
 
