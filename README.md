@@ -111,28 +111,19 @@ Visualized model results and patterns to make insights easier to understand.
 ## Recommendations
 1. Optimize App Size & Performance : Aim to keep app size within a reasonable range (≈ 2–20 MB when possible). Users seem to prefer lightweight, fast apps.
 
-2. Improve Free App Experience : Free apps receive more negative outliers in sentiment. Reduce intrusive ads, improve user onboarding, and fix crashes quickly.
+2. Improve Free App Experience : Free apps receive more negative sentiment. Reduce intrusive ads, improve user onboarding, and fix crashes quickly.
 
 3. Leverage Paid App Quality : Paid apps show more stable and positive sentiment. Emphasize quality, reliability, and unique features to justify price.
 
 4. Use Sentiment Monitoring : Continuously analyze user reviews using an SVM-based sentiment model. Track changes in sentiment over time to identify issues early.
 
-5. Category & Pricing Strategy : Focus on high-demand categories like GAME, FAMILY, and TOOLS, but ensure differentiation. Avoid unrealistically high pricing unless the app offers clear, specialized value (e.g., medical or professional tools).
+5. Category & Pricing Strategy : Focus on high-demand categories like GAME, FAMILY, and TOOLS, but ensure differentiation. Avoid unrealistically high pricing unless the app offers clear, specialized value.
 
 6. Future Improvements : Move from classic ML to transformer-based models like BERT for even better sentiment accuracy. Build a simple dashboard for real-time sentiment tracking.
 
  ## Conclusion
-The project combines app metadata analysis and user sentiment modeling to provide a deep understanding of how apps perform and how users feel about them.
-Key outcomes:
-* The Google Play Store is dominated by Family and Game apps with generally high ratings.
-* Free apps are widely installed but attract more critical reviews.
-* Paid apps enjoy steadier, more positive sentiment.
-* A machine learning pipeline using TF–IDF + SVM delivers strong, reliable sentiment classification performance.
+This project analyzed Google Play apps and user reviews to understand app performance and user sentiment. It shows that Family and Game apps are most common and highly rated, free apps get more installs but more critical reviews, and paid apps have more positive sentiment. Using TF–IDF and SVM, sentiment can be reliably classified. 
 
-The insights derived can guide developers and businesses in:
-* Designing better apps
-* Improving user experience
-* Making smarter pricing decisions
-* Continuously monitoring user satisfaction
+These insights derived can guide developers and businesses in Designing better apps, Improving user experience, Making smarter pricing decisions, Continuously monitoring user satisfaction.
 
 This project is a solid foundation for more advanced NLP work, such as deep learning–based sentiment analysis, topic modeling, and recommendation systems.
